@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: #072A6C;
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th{
+ background: #072A6C;
+ color:white;
+  font-family: 'Abel', serif;
+  font-size:13px;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr(even) {
+  background: gray;
+}

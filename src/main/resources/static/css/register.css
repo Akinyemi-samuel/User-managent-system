@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.linklogin{
+text-align:center;
+ color: #072A6C;
+}
+
+body {
+    background: gainsboro;
+}
+
+.title_text {
+    text-align: center;
+    padding: 15px 0;
+    color: #072A6C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.form_cont {
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    height: auto;
+    width: 40%;
+    box-shadow: 5px 5px 5px 5px  grey;
+    color: #072A6C;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form_cont:hover{
+ box-shadow: 5px 5px 5px 5px #072A6C;;
+}
+
+.inputs{
+    margin-top: 20px;
+    font-family: 'Abel', serif;
+    font-weight: 700;
+}
+
+.inputs input{
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px 4px;
+    border: 1px solid gray;
+}
+
+input:focus {
+	outline: none;
+  	border: 1px solid #072A6C;
+}
+
+.span_input{
+    display: flex;
+}
+
+.span_item input{
+width: 100%;
+}
+
+
+
+* {box-sizing: border-box;}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: orange;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 100%;
+}
+* {box-sizing: border-box}
+
+.sides1, .sides2 {
+  float: left;
+  width: 50%;
+  padding:5px;
+}
+
+
+
+
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+.container h1{
+    padding-bottom: 10px;
+}
+
+.container p{
+    font-family: 'Abel', serif;
+    padding-bottom: 10px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
